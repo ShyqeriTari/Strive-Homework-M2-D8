@@ -1,187 +1,275 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
 
-    <style>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-.navbar{
-    background-color: rgb(38, 114, 255);
-    padding-left:275px;
-}
-
-.free {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    background-color: rgb(230, 230, 230);
-    border:1px solid rgb(204, 203, 203);
-}
-
-.free2 {
-    width: 100%;
-    height: 30px;
-    text-align: left;
-    background-color: rgb(243, 241, 241);
-    border:1px solid rgb(204, 203, 203);
-    padding-left: 15px;
-}
-.aa {
-    font-weight: 200;
-}
-.card-title{
-    font-size: 30px;
-}
-.card-body{
-    text-align: center;
-}
-
-.card-body2{
-    text-align: left;
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    
-}
-.utn{
-    height: auto;
-    color: rgb(38, 114, 255);
-    text-decoration: none;
-    
-}
-
-.utn2{
-    height: auto;
-    color: white;
-    text-decoration: none;
-    
-}
-
-.utn3{
-    height: auto;
-    color: white;
-    text-decoration: none;
-    
-}
-
-.bord{
-
-    width: 100%;
-    border: 1px solid rgb(38, 114, 255);
-}
-
-.bord2{
-
-width: 100%;
-border: 1px solid rgb(38, 114, 255);
-background-color: rgb(38, 114, 255);
-}
-
-.bord3{
-
-width: 20%;
-border: 1px solid rgb(38, 114, 255);
-background-color: rgb(38, 114, 255);
-}
-
-.ex2{
-    justify-content: center;
-    align-items: center;
-}
-
-.card{
-    margin-right: 10px;
-}
-
-footer {
-    border-top: 1px solid rgb(180, 180, 180);
-    padding: 20px 0;
-    width: 60%;
-}
-
-.card3{
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-    </style>
-    <title>What a beautiful world!</title>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
-
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-      </nav>
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+      </ul>
+    </nav>
 
+    <!-- ex1 -->
+    <h1 class="text-center mt-5 fw-light">Exercise 1</h1>
 
-      <div class="container">
-        <h1 class="text-center mt-5 fw-light">Exercise 2</h1>
-  
-        <h5 class="text-center mt-2 fw-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta repellat fugiat et commodi itaque at quaerat ab doloribus? Nobis fugiat commodi maxime sed, sapiente dicta totam dolore modi necessitatibus.
-        </h5>
+    <h5 class="text-center mt-2 fw-light">
+      Lorem ipsum dolor sit amet consectetur adipisicing.
+    </h5>
+
+    <div class="containerEx1 d-flex">
+      <div class="back back1 d-flex">first column</div>
+      <div class="back back2 d-flex">second column</div>
+      <div class="back back3 d-flex">
+        <div class="mini-col mini-col1">daje</div>
+        <div class="mini-col mini-col2">dajeee</div>
+        <div class="mini-col mini-col3">dajeeeeeeee</div>
       </div>
-
-
-    <div class="d-flex ex2">
-      <div class="card" style="width: 14rem;">
-        <div class="free">
-            Free
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">$0 <span class="aa">/ mo </span> </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <div class="bord">
-          <a href="#" class="utn">Sign up for free</a>
-        </div>
-        </div>
     </div>
 
-    <div class="card" style="width: 14rem;">
-        <div class="free">
-            Free
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">$0 <span class="aa">/ mo </span> </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <div class="bord2">
-          <a href="#" class="utn2">Get started</a>
-        </div>
-        </div>
-    </div>
-
-    <div class="card" style="width: 14rem;">
-        <div class="free">
-            Free
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">$0 <span class="aa">/ mo </span> </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <div class="bord2">
-          <a href="#" class="utn2">Contact us</a>
-        </div>
-        </div>
-    </div>
-    </div>
-
+    <!-- ex2 -->
 
     <div class="container">
+      <h1 class="text-center mt-5 fw-light">Exercise 2</h1>
+
+      <h5 class="text-center mt-2 fw-light">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta
+        repellat fugiat et commodi itaque at quaerat ab doloribus? Nobis fugiat
+        commodi maxime sed, sapiente dicta totam dolore modi necessitatibus.
+      </h5>
+    </div>
+
+    <div class="d-flex ex2">
+      <div class="card" style="width: 14rem">
+        <div class="free">Free</div>
+        <div class="card-body">
+          <h5 class="card-title">$0 <span class="aa">/ mo </span></h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="bord">
+            <a href="#" class="utn">Sign up for free</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 14rem">
+        <div class="free">Free</div>
+        <div class="card-body">
+          <h5 class="card-title">$0 <span class="aa">/ mo </span></h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="bord2">
+            <a href="#" class="utn2">Get started</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 14rem">
+        <div class="free">Free</div>
+        <div class="card-body">
+          <h5 class="card-title">$0 <span class="aa">/ mo </span></h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="bord2">
+            <a href="#" class="utn2">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex3 -->
+
+    <div class="container w-50">
+      <h1 class="text-center mt-5 fw-light">Exercise 3</h1>
+      <h5 class="text-center mt-2 fw-light">
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+      </h5>
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>  <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>  <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+              <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center mt-5">
+            <div
+              class="card d-flex justify-center align-items-center"
+              style="width: 12rem"
+            >
+             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ex4 -->
+    
+     <div class="container">
         <h1 class="text-center mt-5 fw-light">Exercise 4</h1>
   
         <h5 class="text-center mt-2 fw-light">
@@ -192,7 +280,6 @@ footer {
 
     <div class="card card3" style="width: 750px;">
         <img src="https://via.placeholder.com/1
-
 C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
         <div class="card-body2">
           <h5 class="card-title">Post Title</h5>
@@ -208,7 +295,6 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
 
     <div class="card card3" style="width: 750px;">
         <img src="https://via.placeholder.com/1
-
 C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
         <div class="card-body2">
           <h5 class="card-title">Post Title</h5>
@@ -224,7 +310,6 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
 
     <div class="card card3" style="width: 750px;">
         <img src="https://via.placeholder.com/1
-
 C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
         <div class="card-body2">
           <h5 class="card-title">Post Title</h5>
@@ -237,17 +322,17 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
             aaaaaaaaaaaaaaa
         </div>
     </div>
-
-
-
-    <center>
+    
+    <!-- footer -->
+    
+     <center>
           
           <footer class="rowS row my-5">
             
             <div id="div" class="col cols-md-4">
              
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio and Subtitles</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted  fw-bold">Audio and Subtitles</a></li>
 
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio and Subtitles</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help Center</a></li>
@@ -259,7 +344,7 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
             <div id="div"  class="col cols-md-4">
               
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio and Subtitles</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">Audio and Subtitles</a></li>
 
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
 
@@ -272,7 +357,7 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
             <div id="div" class="col cols-md-4">
               
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio and Subtitles</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">Audio and Subtitles</a></li>
 
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio Description</h4</li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Audio Description</a></li>
@@ -283,14 +368,22 @@ C/O https://placeholder.com/" alt="" style="widtth: 750px; height: 350px;">
         
             
         </center>
-
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
 
+    <script src="index.js"></script>
   </body>
 </html>
